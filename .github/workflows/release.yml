@@ -24,6 +24,6 @@ jobs:
         with:
           repo_token: "${{ secrets.ACTION }}"
           # This is how you access the exposed version
-          automatic_release_tag: "${{ steps.project-version.outputs.version }}"
+          automatic_release_tag: "${{ steps.project-version.outputs.version  }}"
           prerelease: 'false'
           title: "${{ steps.project-version.outputs.version }}"
