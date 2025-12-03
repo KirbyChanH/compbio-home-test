@@ -26,4 +26,4 @@ jobs:
           # This is how you access the exposed version
           automatic_release_tag: "${{ steps.project-version.outputs.version }}"
           prerelease: 'false'
-          title: "${{ steps.project-version.outputs.version }}"
+          title: "${{ steps.project-version.outputs.version }}" 
